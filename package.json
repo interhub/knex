@@ -1,0 +1,23 @@
+{
+    "name": "mysql2",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "db": "node server/sql.js",
+        "dev": "nodemon server/server.js",
+        "start": "node server/server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "mysql": "^2.18.1"
+    },
+    "devDependencies": {
+        "cors": "^2.8.5"
+    },
+    "type": "module"
+}
